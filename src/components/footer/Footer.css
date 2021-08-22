@@ -1,0 +1,68 @@
+.bg-warning {
+    background-color: #eb6825 !important;
+}
+
+.bg-footer {
+    background-color: #282c35;
+}
+
+.footer-head-div {
+    border-bottom: 1px solid #404040;
+    margin-bottom: 30px;
+}
+
+.footer-list-div ul li {
+    list-style: none;
+    color: #cdcdcd;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.footer-list-div ul li > a {
+    text-decoration: none;
+    outline: none;
+    color: #cdcdcd !important;
+    transition: all 0.3s ease-in-out !important;
+}
+
+.footer-list-div ul li > a:hover {
+    text-decoration: none;
+    color: #eb6825 !important;
+    margin-left: 10px;
+}
+
+.gMail > a {
+    color: #cdcdcd !important;
+    word-break: break-all;
+}
+
+.footer-copyright {
+    border-top: 1px solid #404040;
+    padding: 30px 0px 10px !important;
+    letter-spacing: 1px
+}
+
+.footer-copyright p {
+    color: #cdcdcd !important;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.footer-copyright > p > a {
+    color: #eb6825 !important;
+    font-weight: 700 !important;
+}
+
+.footer-github:hover {
+    text-decoration: underline !important;
+    /* text-decoration-style: double !important; */
+}
+
+
+/* Social Media Icons Hovering */
+a > .linkedIn:hover { color: #0077b5 !important; }
+a > .gitHub:hover { color: #000 !important; }
+a > .facebook:hover { color: 	#06f !important; }
+a > .instagram:hover { color: #dd2a7b !important; } /*#E1306C*/
+a > .twitter:hover { color: #08a0e9 !important; }
+a > .youtube:hover { color: #e62117 !important; }

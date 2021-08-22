@@ -1,0 +1,64 @@
+@font-face {
+    font-family: Pacifico;
+    src: url(../../assets/Pacifico-Regular.ttf);
+}
+
+.navbarLogo {
+    user-select: none !important;
+    font-family: 'Pacifico', Arial, Helvetica, sans-serif !important;
+    font-weight: 500 !important;
+    font-size: 1.6em !important;
+    color: tomato !important;
+    text-shadow: 2px 2px black !important;
+}
+
+.navbarLogo:hover {
+    color: lightseagreen !important;
+    text-decoration: none !important;
+}
+
+.navLink {
+    color: #cdcdcd !important;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    padding: none !important;
+    margin-right: 10px;
+}
+
+.navLink:hover {
+    text-decoration: underline !important;
+    color: white;
+}
+
+.btn-warning {
+    color: #fff !important;
+    background-color: #eb6825 !important;
+    border-color: #eb6825 !important;
+    transition: all 0.3s ease-in-out !important;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    height: 2.7em !important;
+}
+
+.nbRegRes {
+    width: 100% !important;
+}
+  
+.btn-warning:hover {
+    color: #eb6825 !important;
+    background-color: #fff !important;
+    border-color: #eb6825 !important;
+}
+
+.regRes:hover {
+    color: #eb6825 !important;
+    text-decoration: none;
+}
+
+/* @media (max-width: 767px) {
+    .btn-warning {
+        position: absolute !important;
+        display: block !important;
+        width: 100% !important;
+    }
+} */
